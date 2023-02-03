@@ -16,7 +16,7 @@ spec:
         version: v2
     spec:
       containers:
-        - name: demo-app
+        - name: kuma-demo
           image: "kumahq/kuma-demo"
           env:
             - name: REDIS_HOST
